@@ -1,33 +1,29 @@
 input {
-    width: 250px;           /* Genişlik */
-    padding: 15px;          /* İç boşluk (daha büyük görünmesi için) */
-    font-size: 18px;        /* Yazı büyüklüğü */
-    border: 2px solid #333; /* Kenarlık kalınlığı ve rengi */
-    border-radius: 10px;    /* Köşeleri yuvarlatma */
-    outline: none;          /* Tıklayınca çıkan mavi çizgiyi siler */
-}
-
-/* Düğmeyi şekillendirelim */
-button {
-    padding: 15px 30px;     /* Yükseklik ve genişlik boşluğu */
+    width: 250px;
+    padding: 15px;
     font-size: 18px;
-    background-color: #4CAF50; /* Yeşil renk */
-    color: white;           /* Yazı rengi */
-    border: none;           /* Dış çizgiyi siler */
-    border-radius: 10px;    /* Köşeleri yuvarlatma */
-    cursor: pointer;        /* Üzerine gelince el işareti çıkar */
-    transition: 0.3s;       /* Renk değişim hızı */
+    border: 2px solid #333;
+    border-radius: 10px;
+    outline: none;
 }
-
-/* Düğmeye basınca veya üzerine gelince*/
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 button:hover {
-    background-color: #45a049; /* Rengi biraz koyulaşır */
-    transform: scale(1.05);    /* Hafifçe büyür */
+    background-color: #45a049;
+    transform: scale(1.05);
 }
 #soruAlani {
-    font-size: 28px;        /* Soru yazısı büyüklüğü */
-    font-weight: bold;      /* Kalın yazı */
-    margin-bottom: 30px;    /* Alt tarafında boşluk */
-    margin-top: 30px;     /* Üst tarafında boşluk */
-    color: #333;            /* Yazı rengi */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #333;
 }
